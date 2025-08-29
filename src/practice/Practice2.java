@@ -36,7 +36,7 @@ public class Practice2 {
 		//IntStream.rangeClosed(0,100).boxed().filter(n->n%2!=0).filter(n->(n>1&&IntStream.rangeClosed(2,(int)Math.sqrt(n)).boxed().allMatch(i->n%i!=0))).forEach(System.out::println);
 		//
 		
-		"Hello\nWorld\npamila".lines().forEach(System.out::println);
+		"Hello\nWorld\npamila".lines().toString();
 	}
 
 }

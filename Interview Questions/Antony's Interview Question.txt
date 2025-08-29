@@ -1259,3 +1259,73 @@ epsilon is a small number used to compare two double values safely.
 
 What is Metaspace?
 Metaspace is the memory space in Java 8 and later used for storing class metadata, such as class structure, methods, fields, annotations, etc. It is not part of the Java heap.
+
+-------------
+HashCode and equals contract
+
+1. equals() contract
+
+The equals() method must satisfy these properties:
+
+Reflexive → For any non-null reference x, x.equals(x) must return true.
+
+Symmetric → For any non-null references x and y, x.equals(y) must return true if and only if y.equals(x) returns true.
+
+Transitive → For any non-null references x, y, and z, if x.equals(y) and y.equals(z) are true, then x.equals(z) must also be true.
+
+Consistent → Multiple invocations of x.equals(y) must consistently return the same result, provided no fields are modified.
+
+Non-null → x.equals(null) must return false.
+
+2. hashCode() contract
+
+The hashCode() method must obey:
+
+Consistent → Multiple calls on the same object during a single execution must return the same integer, provided no fields used in equals() are modified.
+
+Equal objects → equal hash codes
+
+If x.equals(y) is true, then x.hashCode() == y.hashCode() must also be true.
+
+Unequal objects → hash codes may differ
+
+If x.equals(y) is false, x.hashCode() == y.hashCode() is allowed but not required. (However, better distribution improves performance in hash-based collections.)
+
+----------------
+LDAP - Lightweight Directory Access Protocol
+HDAP - Hybrid Data Architecture/Processing
+
+--------------
+what is udeploy - IBM’s deployment automation tool for CI/CD pipelines, focusing on repeatable, reliable, and auditable deployments
+it provides GUI for deployment process
+--------
+About splunk - log management + monitoring + analytics platform used heavily in IT operations, DevOps, and Security
+--------
+How will handle if any mistake happen from your end in deployment
+
+-------------
+How to Handle Memory leaks
+-------------
+How to improve preformance of a Application or API
+-------------
+CopyOnWrite method
+-------------
+Design Patterns(Implementations)
+-------------
+HLD (High-Level Design)
+👉 “What the system will look like from a bird’s-eye view”
+LLD (Low-Level Design)
+
+👉 “How each module will be implemented in detail”
+-------------
+what you will do if the response time in the production increase
+-------------
+controlled react components - value is controlled by react
+In React, a controlled component is a form input element (input, textarea, select, etc.) whose value is controlled by React state.
+
+uncontrolled react components  -value is controlled by dom
+-------------
+Error handling in react.js
+-------------
+how to improve react app performance using lazy loading API
+------------

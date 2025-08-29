@@ -36,5 +36,5 @@ public class SortingMap {
 		.sorted(Comparator.comparing(Map.Entry<String,Integer>::getKey)
 			.thenComparing(Map.Entry<String,Integer>::getValue))
 		.forEach(entry -> System.out.println(entry.getKey() + ": " + entry.getValue()));
-}
+ }
 }
