@@ -1247,7 +1247,7 @@ If you use an redis Cahce in your application, How will you ensure the data in t
 one to many relation between teacher and student, how we can use @lazy or fetch lazy to improve the performance
 
 -------
-Temporal in java Script
+temporable in java Script
 
 -------
 To compare two double variables in Java, you should not use == directly due to potential floating-point precision errors. Instead, compare them using a small tolerance (epsilon).
@@ -1320,8 +1320,134 @@ LLD (Low-Level Design)
 -------------
 what you will do if the response time in the production increase
 -------------
----
-dock string
--- 
-how to achieve backword compatability in api
----
+controlled react components - value is controlled by react
+In React, a controlled component is a form input element (input, textarea, select, etc.) whose value is controlled by React state.
+
+uncontrolled react components  -value is controlled by dom
+-------------
+Error handling in react.js
+-------------
+how to improve react app performance using lazy loading API
+------------
+
+
+from usha 
+
+Na mobile la notepanathu anuprenn......
+Renault Nissan
+_---------------
+1.Types of Repository,
+2.what are the methods for CRUDRepository and PagingAndSortingRepository?
+3.When you use a custom query along with any of the joins from Sql, what will be the return type of it.?
+4.Flow of Spring Boot CRUD operations
+5.Difference between arraylist and linkedlist,
+6. Write a program for a given string and return its each character along with its no.of occurrences from the string.
+Ex:String g="discussion".
+output : d-1,i-2,s-3,c-1,u-1,o-1,n-1
+
+7. In SQL query, Get the duplicates alone from any of the columns from one table.
+select count(emp_name) from employee group by emp_name having count>1;
+
+
+Static keyword
+synchronization block
+spring starter parent
+create abstract class
+create interface class
+final, finally, finalize
+array vs arraylist
+add values in array list and print 3rd index value
+add values in hashmap and print the values
+request mapping and get mapping
+write controller class and get mapping
+transient
+any query for order by
+indexing
+trigger
+
+1.To get total number of students
+2.To count the number of male students
+3.To count the male and female students individually
+4.To count the duplicates based on student id
+5.To join Student and department table
+6.Native Query for get details of All Students
+7.Spring Boot code for get all student details
+8.To get Students names only by using streams and print it
+9.To get details of All Students by writing JPA Query
+
+selfintro
+project flow
+query for write sql for  duplicate count of Employee ID
+query for join the two tables
+query for Get Employee Details based On their Id .
+query for to get Employee role and count of employees
+how to excute  query in spring boot
+program for excute the query
+about their projects and ask to handle the userstory
+
+1.self intro
+2.form a new list from existing list with condition
+3.create a method to get a day by passing date as(dd/mm/yyyy) using default methods
+(not answered)
+4.create a bi Function functional interface
+5.what is functional interface
+6.what is the return type of the method where having a 10 column entity in that retrieving 5 column means
+7.find duplicates and count in a String?
+8.how do you create a branch in git
+9.write query to retrieve filled data in both table as employee and department tables
+10.write a query to get Employee role and count of employees
+11.how do you get Employee details by passing any field using jpa repository method?  (not answered properly)
+
+1.Count duplicate names from employee Details.
+2.Get Employee Details based On their Id .
+3.Join Two tables Employee and Department get all the Details from the Department table based on department.description.
+
+StreamAPI
+4.create one ArrayList and add values.
+5.find the duplicate values from ArrayList
+6.Get Male and Female Counts in single line using Stream API.
+7.Get  EMployees name who gets more than 10000 salary
+8. Get first values who name starts with  "siva"
+9.Difference between ArrayList and LinkedList
+10.In which Scenario we can use those
+11.Get the FIrst  name From EMployee Details
+
+1-spring security
+2-array list vs linked list
+3-Right a program of arraylist
+4-How to get a duplicate value in array list
+5- get the list of above 1 lack salary list program
+6- in a list name start with b I want to get 1st list program
+7- I want count list of employees gender female and male counts in single line of code
+8-put vs post mapping
+9- flow of spring boot program
+10- using queries to call methods in repo
+1.what is oops?
+2.what is multi threading?
+3.java 8 features?
+4.collection?
+5.what are the joins in mysql?
+
+
+--------
+14)where do you deploy your project?
+15)how do you handle exception?
+16)Anyother way to deploy your project in jenkins other than script pipeline?
+17)explain throw and throws?
+18)where do you use throw?
+19)circuit breaker?
+20)which design pattern you are using in your project?
+21)Explain any scenario where you have used prototype pattern?
+22)Explain Jpa repository?
+23)program
+List<Integer> a=(1,3,4,5)
+Map<Integer,Object> b=(1,"abc",1000)
+find the common id from both 
+output-1,"abc",1000
+
+----
+
+git stash
+
+-----
+reflection and @Autowired 

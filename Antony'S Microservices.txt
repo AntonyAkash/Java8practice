@@ -1,4 +1,3 @@
----------------------ways to improve microservice security-----------------------
 key strategies include establishing robust authentication and authorization, securing communication with TLS and mTL3 protocols, prioritizing container security, implementing centralized monitoring, having an effective incident response plan, and regularly reviewing security measures
 
 it's essential to set up authentication and authorization. Authentication checks user identity. Authorization grants access rights to a user or machine.
@@ -15,7 +14,4 @@ Keep a close eye on your microservices by combining logging and monitoring. This
 
 An API gateway acts as the main entrance to the system and helps manage security more effectively. This gateway makes it easier to control access and keeps data secure and private.
 
-A gateway also manages the flow of data, helps detect and stop attacks, and ensures that data shared between services is safe, making it crucial for keeping your microservices secure.
-
---------------------
-
+15 A gateway also manages the flow of data, helps detect and stop attacks, and ensures that data shared between services is safe, making it crucial for keeping your microservices secure.
